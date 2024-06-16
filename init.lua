@@ -592,6 +592,16 @@ require('lazy').setup({
             },
           },
         },
+
+        intelephense = {
+          settings = {
+            intelephense = {
+              format = {
+                braces = 'k&r',
+              },
+            },
+          },
+        },
       }
 
       -- Ensure the servers and tools above are installed
