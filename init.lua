@@ -939,3 +939,6 @@ vim.api.nvim_set_keymap('n', '<leader>g', '<cmd>lua _lazygit_toggle()<CR>', { no
 
 vim.keymap.set('n', '<C-d>', '<C-d>zz')
 vim.keymap.set('n', '<C-u>', '<C-u>zz')
+
+-- Do not place overritten text to buffer when pasting
+vim.keymap.set('x', '<leader>p', [["_dP]])
